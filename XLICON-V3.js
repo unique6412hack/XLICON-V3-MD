@@ -960,7 +960,7 @@ if (XeonTheCreator) return replygcXlicon(bvl)
             }
         }
         if (db.data.chats[m.chat].antilink) {
-            if (budy.match('http') && budy.match('https')) {
+            if (budy.match('http') && budy.match('whatsapp.com/channel')) {
                bvl = `\`\`\`「 Link Detected 」\`\`\`\n\n*_Admin has sent a link, admin is free to send any link😇_*`
 if (isAdmins) return replygcXlicon(bvl)
 if (m.key.fromMe) return replygcXlicon(bvl)
